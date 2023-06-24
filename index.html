@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Mania</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@100;200;300;400;500&family=Raleway:wght@100;200;300;400;500;600;700;800&family=Shantell+Sans:wght@300&family=Tilt+Neon&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.css">
+  <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.structure.css">
+  <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.min.css">
+
+
+
+
+</head>
+
+<body>
+  <header id="home">
+    <nav class="navbar navbar-expand-lg bg-transparent  py-3 navbar-dark fixed-top bgcolor">
+      <div class="container">
+        <a class="navbar-brand fs-4" href="#home">MOVIE MANIA</a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 fs-6 ms-lg-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#categories">Categories</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#top">Top-Rated</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- nav end. -->
+  <section class="home">
+    <div class="shape"></div>
+    <h5>Download your favourite Movie in just a click</h5>
+    <h1 class="text" data-in-effect="rollIn">WELCOME TO MOVIE MANIA</h1>
+    <div class="arrow">
+      <a href="#about"><img src="./images/down-arrow.png" class="img-fluid text-white" alt="" width="30px"></a>
+
+    </div>
+  </section>
+  <!-- home end. -->
+  <section class="about container py-5" id="about">
+    <div class="row align-items-center mt-5">
+      <div class="img col-lg-5 col-md-12 col-12 mb-3">
+        <div class="shape01"></div>
+
+        <img src="./images/About.png" class="img-fluid">
+      </div>
+      <div class="content col-lg-6 col-md-12 col-12">
+        <h3 class="about-head"><span> About</span> Us</h3>
+        <p class="py-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis doloremque, id sint, maiores,
+          consequatur cumque maxime rem sunt deserunt non dolorum. Quidem dolore delectus ratione eveniet dolores magnam
+          natus nobis quia incidunt in eum, odit voluptatum ex consequuntur assumenda vitae illum mollitia blanditiis
+          non sit repellat iusto id repudiandae. Eius.</p>
+        <div class="d-flex  align-items-center pt-2 text-center">
+          <div class="pe-5">
+            <h3>150K+</h3>
+            <p>Daily Download</p>
+          </div>
+          <div class="pe-5">
+            <h3>2500+</h3>
+            <p>Movies Available</p>
+          </div>
+          <div class="pe-5">
+            <h3>1M+</h3>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-warning rounded-5 mt-3 text-white">Contact Us</a>
+      </div>
+    </div>
+  </section>
+  <!-- about end. -->
+  <section class="categories container py-5" id="categories">
+    <h1 class="cat-head"><span>Cat</span>egories</h1>
+    <div class="row justify-content-center py-5">
+      <div class="movies col-lg-3 col-4">
+        <div class="project">
+          <img src="./images/m1.png" alt="" class="img-fluid">
+          <div class="img-overlay">
+            <div class="info">
+              <h1>ACTION</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="movies col-lg-3 col-4">
+        <div class="project">
+          <img src="./images/m2.png" alt="" class="img-fluid">
+          <div class="img-overlay">
+            <div class="info">
+              <h1>ANIMATION</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="movies col-lg-3 col-4">
+        <div class="project">
+          <img src="./images/m3.png" alt="" class="img-fluid">
+          <div class="img-overlay">
+            <div class="info">
+              <h1>COMEDY</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="movies col-lg-3 col-4">
+        <div class="project">
+          <img src="./images/m4.png" alt="" class="img-fluid">
+          <div class="img-overlay">
+            <div class="info">
+              <h1>DRAMA</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="movies col-lg-3 col-4">
+        <div class="project">
+          <img src="./images/m5.png" alt="" class="img-fluid">
+          <div class="img-overlay">
+            <div class="info">
+              <h1>FANTASY</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="movies col-lg-3 col-4">
+        <div class="project">
+          <img src="./images/m6.png" alt="" class="img-fluid">
+          <div class="img-overlay">
+            <div class="info">
+              <h1>FICTION</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="movies col-lg-3 col-4">
+        <div class="project">
+          <img src="./images/m7.png" alt="" class="img-fluid">
+          <div class="img-overlay">
+            <div class="info">
+              <h1>MYSTERY</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="movies col-lg-3 col-4">
+        <div class="project">
+          <img src="./images/m8.png" alt="" class="img-fluid">
+          <div class="img-overlay">
+            <div class="info">
+              <h1>ROMANTIC</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- categories end. -->
+  <section class="rated container py-3" id="top">
+    <h1 class="cat-head"><span>Top</span> Rated Movies</h1>
+    <div class="row py-5 justify-content-center align-items-center">
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+        <img src="./images/s1.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <a href="video.html">  <i class="fa-solid fa-play fs-3 text-center" id="play"></i></a>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+          <img src="./images/s2.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <i class="fa-solid fa-play fs-3 text-center"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+          <img src="./images/s8.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <i class="fa-solid fa-play fs-3 text-center"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+          <img src="./images/s4.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <i class="fa-solid fa-play fs-3 text-center"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+          <img src="./images/s7.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <i class="fa-solid fa-play fs-3 text-center"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+          <img src="./images/s6.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <i class="fa-solid fa-play fs-3 text-center"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+          <img src="./images/s9.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <a href="video2.html"><i class="fa-solid fa-play fs-3 text-center"></i></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+          <img src="./images/s10.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <i class="fa-solid fa-play fs-3 text-center"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+          <img src="./images/s11.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <i class="fa-solid fa-play fs-3 text-center"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+          <img src="./images/s12.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <i class="fa-solid fa-play fs-3 text-center"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+          <img src="./images/s13.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <i class="fa-solid fa-play fs-3 text-center"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top col-lg-4 col-5 pb-4">
+        <div class="project">
+          <img src="./images/s14.webp" alt="" class="img-fluid rounded-2">
+          <div class="img-overlay">
+            <div class="info">
+              <h3>WATCH </h3>
+              <i class="fa-solid fa-play fs-3 text-center"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- rated end. -->
+  <section class="contact container py-5" id="contact">
+
+    <h1 class="text-light text-center ">Contact Us</h1>
+    <hr class="w-25 mx-auto text-white">
+
+    <section class="back container">
+      <div class="form py-4">
+
+
+        <form action="" class="row justify-content-center align-items-center py-3" onsubmit="emailSend(); reset(); return false;">
+          <div class="col-lg-5 py-3">
+            <div class="input-box">
+              <input type="text" name="" id="name" required>
+              <label for="">Name</label>
+            </div>
+
+            <!-- <hr class="w-100"> -->
+          </div>
+          <div class="col-lg-5 py-4">
+            <div class="input-box">
+              <input type="email" name="" id="email" required>
+              <label for="">Email or Phone</label>
+            </div>
+
+          </div>
+          <!-- <div class="input-box"> -->
+          <div class="col-lg-10 py-4">
+            <!-- <label for="">Message</label> -->
+            <textarea name="" id="text" placeholder="Your Message here"></textarea>
+            <!-- <label for="">Your Message</label> -->
+          </div>
+          <!-- </div> -->
+          <div class="text-center">
+
+            <!-- <a href="#" class="btn btn-warning text-white rounded-5" id="send">Send Message</a> -->
+            <button class="btn btn-warning text-white rounded-5" id="send" type="submit">Send Message</button>
+
+
+          </div>
+        </form>
+
+      </div>
+      <div class="dialog">
+        <p>Thank you for contacting us we'll get back to you soon don't forget to check your email !</p>
+
+      </div>
+      <!-- <hr class=""> -->
+
+
+    </section>
+  </section>
+  <!-- contact end. -->
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" target="_blank" href="https://www.facebook.com/" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+        <!-- Github -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-dark text-decoration-none" href="https://mdbootstrap.com/">Developed by Mr_deepanshu</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- footer end. -->
+  <!-- jQuery. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <!-- jquery ui-- -->
+  <script src="jquery-ui-1.13.2/jquery-ui.js"></script>
+  <script src="jquery-ui-1.13.2/jquery-ui.min.js"></script>
+  <!-- bootstrap. -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+
+  <!------------------- jquery------------------------->
+
+  <script>
+    $.noConflict();
+    jQuery(window).scroll(function () {
+      jQuery("nav").toggleClass("scrolled", $(this).scrollTop() > 500)
+    });
+
+    
+    function emailSend(){
+      Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "deepanshukushwaha166@gmail.com",
+    Password : "03EC0FD7D3AB6BFABCB8E666A05A9AD407AC",
+    To : 'tragicxboy17@gmail.com',
+    From : "deepanshukushwaha166@gmail.com",
+    Subject : "New form Enquiry",
+    Body : "Name: " + document.getElementById('name').value +
+    "<br> Email: " + document.getElementById('email').value +
+    "<br> Message: " + document.getElementById('text').value
+}).then(
+  message => alert("Message sent successfully")
+);
+        }
+
+
+    // dialog-----
+    // $(function () {
+    //   jQuery("#send").click(function () {
+    //     jQuery(".dialog").dialog({
+
+    //       open: function () {
+    //         setTimeout(function () {
+    //           jQuery(".dialog").dialog("close");
+    //         }, 8000)
+    //       },
+    //       show: {
+    //         effect: "blind",
+    //         duration: "1000"
+
+    //       },
+    //       hide: {
+    //         effect: "fade"
+    //       }
+
+    //     });
+    //   });
+    // });
+  </script>
+
+
+</body>
+
+</html>
